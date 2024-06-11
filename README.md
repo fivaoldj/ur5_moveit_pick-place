@@ -9,7 +9,9 @@
 Запуск кода:
 
   $ source devel/setup.bash
+  
   $ roslaunch ur5_moveit_config demo.launch
+  
   $ rosrun cobot_test pick_and_place_node
   
 Работа pick&place начинается по инициализации "next" в RViz
